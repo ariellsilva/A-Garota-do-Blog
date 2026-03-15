@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+}
+nav > a {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  padding: 12px;
+}
+nav{
+    background-color: slategray;
+    padding:10px;
+
+}
+#Contato{
+    background-color: white;
+    max-width: 700px;
+    margin: 80px auto;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    text-align: center;
+}
+#Contato h1{
+    margin-bottom: 20px;
+}
+#Contato p{
+    margin-bottom: 25px;
+    line-height: 1.6;
+}
+#Contato ul{
+    list-style: none;
+    padding: 0;
+}
+#Contato li{
+    margin: 15px 0;
+    font-size: 18px;
+}
+#Contato a{
+    color: #2f3e46;
+    text-decoration: none;
+    font-weight: bold;
+}
+#Contato a:hover{
+    text-decoration: underline;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+input, textarea{
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-family: Georgia, serif;
+    font-size: 16px;
+}
+textarea{
+    resize: none;
+    height: 120px;
+}
+button{
+    background-color: slategray;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #2f3e46;
+}
+@media (max-width: 820px){
+  nav{
+    background-color: slategray;
+    padding:10px;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+
+}
+
+}

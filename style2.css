@@ -1,0 +1,155 @@
+body{
+    margin: 0;
+}
+
+nav > a {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  padding: 12px;
+}
+html, body{
+  overflow-x: hidden;
+}
+nav{
+    background-color: slategray;
+    padding:10px;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+}
+
+#CentralSerena{
+  background-color: #ffffff; 
+  padding: 50px 40px;
+  width: 90%;
+  max-width: 900px;
+  margin: 40px auto;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+  font-family: 'Georgia', serif;
+  color: #1a1a1a; 
+  line-height: 1.8;
+}
+#Serena1{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  right: 20px;
+}
+#Serena1 img{
+  width: 350px;
+}
+h2{
+  text-align: center;
+}
+#CentralBlair{
+  background-color: #ffffff; 
+  padding: 50px 40px;
+  width: 90%;
+  max-width: 900px;
+  margin: 40px auto;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+  font-family: 'Georgia', serif;
+  color: #1a1a1a; 
+  line-height: 1.8;
+}
+#Blair1{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  right: 20px;
+}
+#Blair1 img{
+ width: 350px;
+}
+#CentralNate{
+  background-color: #ffffff; 
+  padding: 50px 40px;
+  width: 90%;
+  max-width: 900px;
+  margin: 40px auto;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+  font-family: 'Georgia', serif;
+  color: #1a1a1a; 
+  line-height: 1.8;
+}
+#Nate1{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  right: 20px;
+}
+#Nate1 img{
+  width: 350px;
+}
+#CentralBass{
+  background-color: #ffffff; 
+  padding: 50px 40px;
+  width: 90%;
+  max-width: 900px;
+  margin: 40px auto;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+  font-family: 'Georgia', serif;
+  color: #1a1a1a; 
+  line-height: 1.8;
+}
+#Bass1 img{
+  width: 350px;
+}
+#Bass1{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  right: 20px;
+
+}
+#CentralDan{
+  background-color: #ffffff; 
+  padding: 50px 40px;
+  width: 90%;
+  max-width: 900px;
+  margin: 40px auto;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+  font-family: 'Georgia', serif;
+  color: #1a1a1a; 
+  line-height: 1.8;
+}
+#Dan1{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  right: 20px;
+}
+#Dan1 img{
+  width: 350px;
+
+}
+@media (max-width: 820px){
+nav{
+    background-color: slategray;
+    padding:10px;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+}
+#CentralSerena p, #CentralBlair p, #CentralNate p, #CentralBass p, #CentralDan p{
+ position: relative;
+ right: 15px;
+}
+#CentralSerena img, #CentralBlair img, #CentralNate img, #CentralBass img, #CentralDan img{
+  width: 290px;
+}
+#CentralSerena h2, #CentralBlair h2, #CentralNate h2, #CentralBass h2, #CentralDan h2{
+text-align: center;
+position: relative;
+right: 15px;
+}
+
+}
